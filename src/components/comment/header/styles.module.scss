@@ -1,0 +1,36 @@
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.imageWrapper {
+  img {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 999px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+.createdAt {
+  color: var(--grayish-blue);
+  font-size: 14px;
+}
+.username {
+  font-size: 16px;
+  font-weight: 500%;
+  color: var(--dark-blue);
+}
+.person {
+  background-color: var(--moderate-blue);
+  color: var(--white);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.actionButtons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+}

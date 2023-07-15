@@ -1,0 +1,31 @@
+.commentWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 16px;
+}
+commentContentArea {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.replies {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 72px;
+
+  &::before {
+    position: absolute;
+    left: -39px;
+    top: 0;
+    bottom: 0;
+    content: "";
+    width: 3px;
+    background-color: var(--light-gray);
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,18 @@
+.imageWrapper {
+  img {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 999px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+.newCommentEditor {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 16px;
+}
